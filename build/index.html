@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script>
+    (function () {
+      var m = document.location.pathname.match(/^(\/[-\w]+)+\/web($|\/)/);
+      document.write('<base href="' + (m ? m[0] : '/') + '" />');
+    }());
+  </script>
+
+  <title>Hello Patrick</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://daveplug.github.io/dart-angular-hello/build/styles.css">
+  <link rel="icon" type="image/png" href="https://daveplug.github.io/dart-angular-hello/build/favicon.png">
+
+  <script defer src="https://daveplug.github.io/dart-angular-hello/build/main.dart.js"></script>
+</head>
+
+<body>
+  <my-app>Loading...</my-app>
+</body>
+
+</html>
