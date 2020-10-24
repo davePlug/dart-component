@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+#outside {
+    background: #FFFFFF;
+    padding: 12px 24px;
+    margin-bottom: 10px;
+    max-width: 1080px;
+}
+
+#outside button {
+    background: #25ACA4;
+    border-radius: 2px;
+    border: 0;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    padding: 8px 25px;
+    cursor: pointer;
+    outline: none;
+}

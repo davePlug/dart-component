@@ -1,5 +1,8 @@
 .dart_tool/package_config.json
 .packages
+assets/calendar.svg
+assets/comments.svg
+assets/customer.svg
 favicon.png
 index.html
 main.dart.js
