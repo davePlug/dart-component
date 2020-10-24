@@ -1,0 +1,8 @@
+<div id="outside">
+    <button (click)="addCmp()" >Create Message</button>
+</div>
+<div>
+    <ng-container *ngFor="let i of myComponents">
+        <MessageBox></MessageBox>
+    </ng-container>
+</div>

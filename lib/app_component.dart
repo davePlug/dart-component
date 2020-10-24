@@ -1,9 +1,17 @@
 import 'package:angular/angular.dart';
 
+import 'block/block_component.dart';
+
 @Component(
-  selector: 'my-app',
-  template: '<h1>Hello {{name}}</h1>',
+  selector: 'dash-block',
+  templateUrl: 'app_template.html',
+  styleUrls: ['app_style.css'],
+  directives: [NgFor, MessageBox]
 )
-class AppComponent {
-  var name = 'Patrick';
+class AppComponent  {
+  var myComponents = [1];
+
+  addCmp() {
+    myComponents.add(1);
+  }
 }
